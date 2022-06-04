@@ -14,9 +14,9 @@ gulp.task('hello', function (done) {
 // SCSS compilation task
 function buildStyles() {
   return gulp
-    .src('src/assets/stylesheets/scss/**/*.scss')
+    .src('styles/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('src/assets/stylesheets/css'));
+    .pipe(gulp.dest('styles/css'));
 }
 
 exports.buildStyles = buildStyles;
@@ -24,18 +24,15 @@ exports.buildStyles = buildStyles;
 // autoprefixer task
 exports.default = () =>
   gulp
-    .src('src/assets/stylesheets/scss/**/*.scss')
+    .src('styles/scss/**/*.scss')
     .pipe(
       autoprefixer({
         cascade: false,
       })
     )
-    .pipe(gulp.dest('src/assets/stylesheets/css'));
+    .pipe(gulp.dest('styles/css'));
 
 // watch task
 gulp.task('watch', function () {
-  gulp.watch(
-    'src/assets/stylesheets/scss/**/*.scss',
-    gulp.series('buildStyles')
-  );
+  gulp.watch('styles/scss/**/*.scss', gulp.series('buildStyles'));
 });
