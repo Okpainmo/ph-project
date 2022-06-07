@@ -6,7 +6,10 @@ import React from 'react';
 
 function index() {
   return (
-    <div className="flex text-teal-600 font-bold underline">Landing page</div>
+    <div className="flex text-teal-600 font-bold underline font-montserrat">
+      Landing page
+      <span className="font-lato">hello world</span>
+    </div>
   );
 }
 
