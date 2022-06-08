@@ -1,6 +1,6 @@
 import iOne from '../../public/share.svg';
 import iTwo from '../../public/build.svg';
-import iThree from '../../public/collaborate.svg';
+import iThree from '../../public/collaboration.svg';
 import iFour from '../../public/network.svg';
 
 const detailData = [
