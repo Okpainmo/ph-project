@@ -4,7 +4,7 @@ import FirstBannerImage from '../public/pic-4.png';
 import SecondBannerImage from '../public/image-1.png';
 
 import React from 'react';
-import Detail from './landing-page-utilities/Detail';
+import Detail from './landing-page-components/Detail';
 
 function index() {
   return (
