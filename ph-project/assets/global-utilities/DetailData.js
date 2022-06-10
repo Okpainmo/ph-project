@@ -3,45 +3,50 @@ import iTwo from '../../public/build.svg';
 import iThree from '../../public/collaboration.svg';
 import iFour from '../../public/network.svg';
 
-const detailData = [
+export const detailData = [
   {
+    id: 1,
     illustration: iOne,
-    detailTitle: 'Share UI Designs',
+    detailTitle: 'We Share',
     detailText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias
           ea ut laborum quidem sint soluta consectetur commodi? Voluptatum, ipsa
           corrupti? Nobis tempora facere, fuga repellat, sunt laborum, maxime
           totam consectetur dolorem aliquam reprehenderit repellendus debitis
           architecto qui corporis repudiandae eius magni! Reiciendis quod
-          nesciunt eius a iste earum necessitatibus`,
+          nesciunt eius a iste earum necessitatibus.`,
   },
   {
+    id: 2,
     illustration: iTwo,
-    detailTitle: 'Build Prototypes',
+    detailTitle: 'We Build',
     detailText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias
           ea ut laborum quidem sint soluta consectetur commodi? Voluptatum, ipsa
           corrupti? Nobis tempora facere, fuga repellat, sunt laborum, maxime
           totam consectetur dolorem aliquam reprehenderit repellendus debitis
           architecto qui corporis repudiandae eius magni! Reiciendis quod
-          nesciunt eius a iste earum necessitatibus`,
+          nesciunt eius a iste earum necessitatibus.`,
   },
   {
+    id: 3,
+
     illustration: iThree,
-    detailTitle: 'Collaborate',
+    detailTitle: 'We Collaborate',
     detailText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias
           ea ut laborum quidem sint soluta consectetur commodi? Voluptatum, ipsa
           corrupti? Nobis tempora facere, fuga repellat, sunt laborum, maxime
           totam consectetur dolorem aliquam reprehenderit repellendus debitis
           architecto qui corporis repudiandae eius magni! Reiciendis quod
-          nesciunt eius a iste earum necessitatibus`,
+          nesciunt eius a iste earum necessitatibus.`,
   },
   {
+    id: 4,
     illustration: iFour,
-    detailTitle: 'Network',
+    detailTitle: 'We Network',
     detailText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias
           ea ut laborum quidem sint soluta consectetur commodi? Voluptatum, ipsa
           corrupti? Nobis tempora facere, fuga repellat, sunt laborum, maxime
           totam consectetur dolorem aliquam reprehenderit repellendus debitis
           architecto qui corporis repudiandae eius magni! Reiciendis quod
-          nesciunt eius a iste earum necessitatibus`,
+          nesciunt eius a iste earum necessitatibus.`,
   },
 ];
