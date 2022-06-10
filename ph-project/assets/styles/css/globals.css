@@ -4,6 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* google fonts stored as font classes*/
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* other styles */
+
 nav ul li {
   @apply hover:border-b-2 h-full flex items-center box-content border-black px-1;
 }
@@ -19,6 +34,10 @@ nav ul li {
 .custom-shift {
   position: relative;
   top: -500px;
+}
+
+.detail-text-section-header {
+  @apply after:mt-4 after:w-14 after:block after:h-1 after:rounded-lg after:bg-blue-500;
 }
 
 /* default nextjs generated styles */
